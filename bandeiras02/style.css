@@ -1,0 +1,214 @@
+.bandeira{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    margin: 20px;
+}
+.bandeira2{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    margin: 20px;
+}
+.col3{
+    width: 100px;
+    height: 150px;
+    display: block;
+    float: left;
+}
+.lin3{
+    width: 300px;
+    height: 50px;
+    display: block;
+    float: top;
+}
+.lin3menor{
+    width: 300px;
+    height: 36px;
+    display: block;
+    float: top;
+    border-top: 7px solid red;
+    border-bottom: 7px solid red;
+}
+.lin3menor2{
+    width: 300px;
+    height: 36px;
+    display: block;
+    float: top;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+}
+.col3sobreposto{
+    width: 100px;
+    height: 150px;
+    display: block;
+    float: left;
+    position: relative;
+}    
+.circulo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.circulo2{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 100%;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+.lisHor{
+    width: 300px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 60px;
+}
+.lisVer{
+    width: 35px;
+    height: 150px;
+    display: block;
+    position: relative;
+    top: -35px;
+    left: 80px;
+}
+.lisHor2{
+    width: 100px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+.lisVer2{
+    width: 40px;
+    height: 100px;
+    display: block;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 55px;
+}
+.lisHor3{
+    width: 300px;
+    height: 20px;
+    display: block;
+    position: relative;
+    top: -117px
+}
+.lisVer3{
+    width: 20px;
+    height: 150px;
+    display: block;
+    position: relative;
+    top: -205px;
+    left: 88px;
+}
+.outline{
+    outline-color: red;
+    outline-style: solid;
+    outline-width: 7px; 
+}
+.trianguloEsq{
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid transparent;
+    border-bottom: 70px solid transparent;
+    border-left: 95px solid red;
+    position: relative;   
+    float: left;
+}
+.quadrado{
+    width: 115px;
+    height: 81px;
+    display: block;
+    position: relative;
+    float: left;
+    float: top;
+}
+.linPequena{
+    width: 300px;
+    height: 7.7%;
+    display: block;
+    float: top;
+}
+.floatL{
+    float: left;
+}
+/* CORES */
+.corAzulForte{
+    background-color: blue;
+}
+.corBranco{
+    background-color: white;
+}
+.corVermelho{
+    background-color: red;
+}
+.corPreto{
+    background-color: black;
+}
+.corAmarelo{
+    background-color: yellow;
+}
+.corVerde{
+    background-color: green;
+}
+.corAzulClaro{
+    background-color: cornflowerblue;
+}
+/* ID */
+#japao{
+    background-color: white;
+    display: block;
+}
+#bangladesh{
+    background-color: green;
+}
+#suecia{
+    background-color: blue;
+}
+#star {
+    margin: 4px;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 11px solid transparent;
+    border-bottom: 7px solid white;
+    border-left: 10px solid transparent;
+    transform: rotate(35deg);
+}
+#star:before {
+    border-bottom: 8px solid white;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -4px;
+    left: -6px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+#star:after {
+    position: absolute;
+    display: block;
+    top: 1px;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid white;
+    border-left: 10px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}

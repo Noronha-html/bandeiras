@@ -1,0 +1,77 @@
+.bandeira{
+    width: 300px;
+    height:150px;
+    display: block;
+    float: left;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+}
+.white{
+    background-color: white;
+    width: 100px;
+    height: 150px;
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 150px;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 150px;
+}
+.orange{
+    background-color: orange;
+    width: 100px;
+    height: 150px;
+}
+.yellow{
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+}
+.black{
+    background-color: black;
+    width: 100px;
+    height: 150px;
+}
+.red2{
+    background-color: red;
+    width: 300px;
+    height: 50px;
+}
+.white2{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+}
+.green2{
+    background-color: green;
+    width: 300px;
+    height: 50px;
+}
+.yellow2{
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+}
+.black2{
+    background-color: black;
+    width: 300px;
+    height: 50px;
+}
+.blue2{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+.L{
+    float: left;
+}
+.B{
+    float: bottom;
+}
